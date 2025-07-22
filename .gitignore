@@ -40,10 +40,13 @@ data/processed/
 *.json
 *.pkl
 
-# Modelos
-models/
-*.joblib
-*.pickle
+# Modelos entrenados y artifacts
+/models/              # Solo directorio models en raíz
+*.joblib             # Archivos de modelo entrenado
+*.pickle             # Archivos pickle
+*.pkl                # Archivos pkl
+*.h5                 # Modelos TensorFlow/Keras
+*.ckpt               # Checkpoints
 
 # Jupyter Notebook
 .ipynb_checkpoints
